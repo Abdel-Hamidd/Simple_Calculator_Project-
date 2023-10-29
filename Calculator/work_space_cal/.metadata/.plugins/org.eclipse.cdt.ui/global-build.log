@@ -1,0 +1,2418 @@
+07:01:02 **** Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:13:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+../DIO_program.c:11:33: error: ..\..\LIB\STD_TYPES.h: No such file or directory
+../DIO_program.c:12:34: error: ..\..\LIB\BIT_MACROS.h: No such file or directory
+In file included from ../DIO_program.c:14:
+../DIO_interface.h:34: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:36: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:38: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPinValue'
+../DIO_interface.h:40: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:42: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:45: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPortValue'
+../DIO_program.c:19: error: expected ')' before 'copy_u8PortID'
+../DIO_program.c:63: error: expected ')' before 'Copy_u8PortID'
+../DIO_program.c:105: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPinValue'
+../DIO_program.c:133: error: expected ')' before 'Copy_u8PortID'
+../DIO_program.c:183: error: expected ')' before 'Copy_u8PortID'
+../DIO_program.c:208: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPortValue'
+make: *** [DIO_program.o] Error 1
+07:01:30 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+../CLCD_program.c:9:23: error: STD_TYPES.h: No such file or directory
+In file included from ../CLCD_program.c:12:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../CLCD_program.c:13:
+../DIO_interface.h:34: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:36: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:38: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPinValue'
+../DIO_interface.h:40: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:42: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:45: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPortValue'
+In file included from ../CLCD_program.c:14:
+../CLCD_interface.h:53: error: expected ')' before 'Copy_u8Command'
+../CLCD_interface.h:54: error: expected ')' before 'Copy_u8Data'
+../CLCD_interface.h:56: error: expected ')' before 'Copy_u8Row'
+../CLCD_interface.h:58: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_interface.h:60: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_interface.h:61: error: expected ')' before '*' token
+../CLCD_interface.h:63: error: expected ')' before 'Copy_u32Number'
+../CLCD_program.c: In function 'CLCD_voidInit':
+../CLCD_program.c:21: warning: implicit declaration of function 'DIO_voidSetPortDirection'
+../CLCD_program.c:23: warning: implicit declaration of function 'DIO_voidSetupPinDirection'
+../CLCD_program.c:30: warning: implicit declaration of function 'CLCD_voidSendCommand'
+../CLCD_program.c: At top level:
+../CLCD_program.c:43: error: expected ')' before 'Copy_u8Command'
+../CLCD_program.c:58: error: expected ')' before 'Copy_u8Data'
+../CLCD_program.c:74: error: expected ')' before 'Copy_u8Row'
+../CLCD_program.c:87: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_program.c:103: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_program.c:116: error: expected ')' before '*' token
+../CLCD_program.c:128: error: expected ')' before 'Copy_u32Number'
+make: *** [CLCD_program.o] Error 1
+07:01:53 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:12:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../KPAD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"KPAD_program.d" -MT"KPAD_program.o" -c -o "KPAD_program.o" "../KPAD_program.c"
+In file included from ../KPAD_program.c:9:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../KPAD_program.c
+ 
+Building file: ../LED_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"LED_program.d" -MT"LED_program.o" -c -o "LED_program.o" "../LED_program.c"
+Finished building: ../LED_program.c
+ 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:9:27: error: LIB/STD_TYPES.h: No such file or directory
+../main.c:10:28: error: LIB/BIT_MACROS.h: No such file or directory
+../main.c:11:36: error: MCAL/DIO/DIO_interface.h: No such file or directory
+../main.c:12:35: error: HAL/LED/LED_interface.h: No such file or directory
+../main.c:13:35: error: HAL/SSD/SSD_interface.h: No such file or directory
+../main.c:14:37: error: HAL/CLCD/CLCD_interface.h: No such file or directory
+../main.c:15:37: error: HAL/KPAD/KPAD_interface.h: No such file or directory
+../main.c:16:32: error: APP/CALC_interface.h: No such file or directory
+In file included from ../main.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:24: warning: implicit declaration of function 'CLCD_voidInit'
+../main.c:25: warning: implicit declaration of function 'KPAD_voidInit'
+../main.c:27: error: 'u8' undeclared (first use in this function)
+../main.c:27: error: (Each undeclared identifier is reported only once
+../main.c:27: error: for each function it appears in.)
+../main.c:27: error: expected ';' before 'Equation'
+../main.c:28: error: expected ';' before 'EquationSize'
+../main.c:29: error: 'u32' undeclared (first use in this function)
+../main.c:29: error: expected ';' before 'Result'
+../main.c:30: error: expected ';' before 'Op1'
+../main.c:31: error: expected ';' before 'Op2'
+../main.c:32: error: expected ';' before 'Operator'
+../main.c:33: warning: implicit declaration of function 'CLCD_voidSetPosition'
+../main.c:34: warning: implicit declaration of function 'CLCD_voidSendString'
+../main.c:34: error: expected expression before ')' token
+../main.c:38: error: expected ';' before 'key'
+../main.c:40: error: 'key' undeclared (first use in this function)
+../main.c:44: error: 'Equation' undeclared (first use in this function)
+../main.c:44: error: 'EquationSize' undeclared (first use in this function)
+../main.c:46: warning: implicit declaration of function 'CLCD_voidSendData'
+../main.c:55: error: expected expression before ')' token
+../main.c:58: error: expected ';' before 'OperatorSize'
+../main.c:58: error: 'OperatorSize' undeclared (first use in this function)
+../main.c:60: error: 'Operator' undeclared (first use in this function)
+../main.c:61: error: expected ';' before 'Digits'
+../main.c:61: error: 'Digits' undeclared (first use in this function)
+../main.c:62: error: 'Op1' undeclared (first use in this function)
+../main.c:65: error: expected ';' before 'Ind2'
+../main.c:65: error: 'Ind2' undeclared (first use in this function)
+../main.c:66: error: 'Op2' undeclared (first use in this function)
+../main.c:70: warning: implicit declaration of function 'CLCD_voidCLearDisplay'
+../main.c:74: error: 'Result' undeclared (first use in this function)
+../main.c:78: error: expected expression before ')' token
+../main.c:80: warning: implicit declaration of function 'CLCD_voidSendu32Number'
+../main.c:89: error: expected expression before ')' token
+../main.c:100: error: expected expression before ')' token
+../main.c:111: error: expected expression before ')' token
+../main.c:116: error: expected expression before ')' token
+../main.c:126: error: expected expression before ')' token
+../main.c:138: error: expected expression before ')' token
+../main.c:145: error: expected ';' before 'init'
+../main.c:145: error: 'init' undeclared (first use in this function)
+make: *** [main.o] Error 1
+07:02:08 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:17:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:9:27: error: LIB/STD_TYPES.h: No such file or directory
+../main.c:10:28: error: LIB/BIT_MACROS.h: No such file or directory
+../main.c:11:36: error: MCAL/DIO/DIO_interface.h: No such file or directory
+../main.c:12:35: error: HAL/LED/LED_interface.h: No such file or directory
+../main.c:13:35: error: HAL/SSD/SSD_interface.h: No such file or directory
+../main.c:14:37: error: HAL/CLCD/CLCD_interface.h: No such file or directory
+../main.c:15:37: error: HAL/KPAD/KPAD_interface.h: No such file or directory
+../main.c:16:32: error: APP/CALC_interface.h: No such file or directory
+In file included from ../main.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:24: warning: implicit declaration of function 'CLCD_voidInit'
+../main.c:25: warning: implicit declaration of function 'KPAD_voidInit'
+../main.c:27: error: 'u8' undeclared (first use in this function)
+../main.c:27: error: (Each undeclared identifier is reported only once
+../main.c:27: error: for each function it appears in.)
+../main.c:27: error: expected ';' before 'Equation'
+../main.c:28: error: expected ';' before 'EquationSize'
+../main.c:29: error: 'u32' undeclared (first use in this function)
+../main.c:29: error: expected ';' before 'Result'
+../main.c:30: error: expected ';' before 'Op1'
+../main.c:31: error: expected ';' before 'Op2'
+../main.c:32: error: expected ';' before 'Operator'
+../main.c:33: warning: implicit declaration of function 'CLCD_voidSetPosition'
+../main.c:34: warning: implicit declaration of function 'CLCD_voidSendString'
+../main.c:34: error: expected expression before ')' token
+../main.c:38: error: expected ';' before 'key'
+../main.c:40: error: 'key' undeclared (first use in this function)
+../main.c:44: error: 'Equation' undeclared (first use in this function)
+../main.c:44: error: 'EquationSize' undeclared (first use in this function)
+../main.c:46: warning: implicit declaration of function 'CLCD_voidSendData'
+../main.c:55: error: expected expression before ')' token
+../main.c:58: error: expected ';' before 'OperatorSize'
+../main.c:58: error: 'OperatorSize' undeclared (first use in this function)
+../main.c:60: error: 'Operator' undeclared (first use in this function)
+../main.c:61: error: expected ';' before 'Digits'
+../main.c:61: error: 'Digits' undeclared (first use in this function)
+../main.c:62: error: 'Op1' undeclared (first use in this function)
+../main.c:65: error: expected ';' before 'Ind2'
+../main.c:65: error: 'Ind2' undeclared (first use in this function)
+../main.c:66: error: 'Op2' undeclared (first use in this function)
+../main.c:70: warning: implicit declaration of function 'CLCD_voidCLearDisplay'
+../main.c:74: error: 'Result' undeclared (first use in this function)
+../main.c:78: error: expected expression before ')' token
+../main.c:80: warning: implicit declaration of function 'CLCD_voidSendu32Number'
+../main.c:89: error: expected expression before ')' token
+../main.c:100: error: expected expression before ')' token
+../main.c:111: error: expected expression before ')' token
+../main.c:116: error: expected expression before ')' token
+../main.c:126: error: expected expression before ')' token
+../main.c:138: error: expected expression before ')' token
+../main.c:145: error: expected ';' before 'init'
+../main.c:145: error: 'init' undeclared (first use in this function)
+make: *** [main.o] Error 1
+07:02:11 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:9:27: error: LIB/STD_TYPES.h: No such file or directory
+../main.c:10:28: error: LIB/BIT_MACROS.h: No such file or directory
+../main.c:11:36: error: MCAL/DIO/DIO_interface.h: No such file or directory
+../main.c:12:35: error: HAL/LED/LED_interface.h: No such file or directory
+../main.c:13:35: error: HAL/SSD/SSD_interface.h: No such file or directory
+../main.c:14:37: error: HAL/CLCD/CLCD_interface.h: No such file or directory
+../main.c:15:37: error: HAL/KPAD/KPAD_interface.h: No such file or directory
+../main.c:16:32: error: APP/CALC_interface.h: No such file or directory
+In file included from ../main.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:24: warning: implicit declaration of function 'CLCD_voidInit'
+../main.c:25: warning: implicit declaration of function 'KPAD_voidInit'
+../main.c:27: error: 'u8' undeclared (first use in this function)
+../main.c:27: error: (Each undeclared identifier is reported only once
+../main.c:27: error: for each function it appears in.)
+../main.c:27: error: expected ';' before 'Equation'
+../main.c:28: error: expected ';' before 'EquationSize'
+../main.c:29: error: 'u32' undeclared (first use in this function)
+../main.c:29: error: expected ';' before 'Result'
+../main.c:30: error: expected ';' before 'Op1'
+../main.c:31: error: expected ';' before 'Op2'
+../main.c:32: error: expected ';' before 'Operator'
+../main.c:33: warning: implicit declaration of function 'CLCD_voidSetPosition'
+../main.c:34: warning: implicit declaration of function 'CLCD_voidSendString'
+../main.c:34: error: expected expression before ')' token
+../main.c:38: error: expected ';' before 'key'
+../main.c:40: error: 'key' undeclared (first use in this function)
+../main.c:44: error: 'Equation' undeclared (first use in this function)
+../main.c:44: error: 'EquationSize' undeclared (first use in this function)
+../main.c:46: warning: implicit declaration of function 'CLCD_voidSendData'
+../main.c:55: error: expected expression before ')' token
+../main.c:58: error: expected ';' before 'OperatorSize'
+../main.c:58: error: 'OperatorSize' undeclared (first use in this function)
+../main.c:60: error: 'Operator' undeclared (first use in this function)
+../main.c:61: error: expected ';' before 'Digits'
+../main.c:61: error: 'Digits' undeclared (first use in this function)
+../main.c:62: error: 'Op1' undeclared (first use in this function)
+../main.c:65: error: expected ';' before 'Ind2'
+../main.c:65: error: 'Ind2' undeclared (first use in this function)
+../main.c:66: error: 'Op2' undeclared (first use in this function)
+../main.c:70: warning: implicit declaration of function 'CLCD_voidCLearDisplay'
+../main.c:74: error: 'Result' undeclared (first use in this function)
+../main.c:78: error: expected expression before ')' token
+../main.c:80: warning: implicit declaration of function 'CLCD_voidSendu32Number'
+../main.c:89: error: expected expression before ')' token
+../main.c:100: error: expected expression before ')' token
+../main.c:111: error: expected expression before ')' token
+../main.c:116: error: expected expression before ')' token
+../main.c:126: error: expected expression before ')' token
+../main.c:138: error: expected expression before ')' token
+../main.c:145: error: expected ';' before 'init'
+../main.c:145: error: 'init' undeclared (first use in this function)
+make: *** [main.o] Error 1
+07:02:51 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:19:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./LED_program.o ./SSD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12746 bytes (38.9% Full)
+(.text + .data + .bootloader)
+
+Data:        118 bytes (5.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:04:55 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./LED_program.o ./SSD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12746 bytes (38.9% Full)
+(.text + .data + .bootloader)
+
+Data:        118 bytes (5.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:05:36 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12070 bytes (36.8% Full)
+(.text + .data + .bootloader)
+
+Data:         98 bytes (4.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:06:31 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12070 bytes (36.8% Full)
+(.text + .data + .bootloader)
+
+Data:         98 bytes (4.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:07:13 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12070 bytes (36.8% Full)
+(.text + .data + .bootloader)
+
+Data:         98 bytes (4.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:10:39 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../KPAD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"KPAD_program.d" -MT"KPAD_program.o" -c -o "KPAD_program.o" "../KPAD_program.c"
+In file included from ../KPAD_program.c:9:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../KPAD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12070 bytes (36.8% Full)
+(.text + .data + .bootloader)
+
+Data:         98 bytes (4.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:11:45 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12078 bytes (36.9% Full)
+(.text + .data + .bootloader)
+
+Data:         98 bytes (4.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:12:33 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12074 bytes (36.8% Full)
+(.text + .data + .bootloader)
+
+Data:         98 bytes (4.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:12:42 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11846 bytes (36.2% Full)
+(.text + .data + .bootloader)
+
+Data:         98 bytes (4.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:12:59 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11846 bytes (36.2% Full)
+(.text + .data + .bootloader)
+
+Data:         98 bytes (4.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:14:27 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11846 bytes (36.2% Full)
+(.text + .data + .bootloader)
+
+Data:         98 bytes (4.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:14:55 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12074 bytes (36.8% Full)
+(.text + .data + .bootloader)
+
+Data:         98 bytes (4.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:14:59 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12074 bytes (36.8% Full)
+(.text + .data + .bootloader)
+
+Data:         98 bytes (4.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:16:10 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12074 bytes (36.8% Full)
+(.text + .data + .bootloader)
+
+Data:         98 bytes (4.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:18:45 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12120 bytes (37.0% Full)
+(.text + .data + .bootloader)
+
+Data:        144 bytes (7.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:19:11 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12094 bytes (36.9% Full)
+(.text + .data + .bootloader)
+
+Data:        118 bytes (5.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:19:17 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12094 bytes (36.9% Full)
+(.text + .data + .bootloader)
+
+Data:        118 bytes (5.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:19:36 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12088 bytes (36.9% Full)
+(.text + .data + .bootloader)
+
+Data:        112 bytes (5.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:20:00 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12084 bytes (36.9% Full)
+(.text + .data + .bootloader)
+
+Data:        108 bytes (5.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:20:21 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12082 bytes (36.9% Full)
+(.text + .data + .bootloader)
+
+Data:        106 bytes (5.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:20:55 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:32:12: error: invalid suffix "b00" on integer constant
+make: *** [main.o] Error 1
+07:21:00 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:32:12: error: invalid suffix "b00" on integer constant
+make: *** [main.o] Error 1
+07:21:01 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12076 bytes (36.9% Full)
+(.text + .data + .bootloader)
+
+Data:        100 bytes (4.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:22:55 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12068 bytes (36.8% Full)
+(.text + .data + .bootloader)
+
+Data:        100 bytes (4.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:25:34 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:11:
+../DIO_interface.h:34: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:35: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:36: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPinValue'
+../DIO_interface.h:37: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:38: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:39: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPortValue'
+In file included from ../CLCD_program.c:12:
+../CLCD_interface.h:47: error: expected ')' before 'Copy_u8Command'
+../CLCD_interface.h:48: error: expected ')' before 'Copy_u8Data'
+../CLCD_interface.h:50: error: expected ')' before 'Copy_u8Row'
+../CLCD_interface.h:52: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_interface.h:54: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_interface.h:55: error: expected ')' before '*' token
+../CLCD_interface.h:57: error: expected ')' before 'Copy_u32Number'
+In file included from ../CLCD_program.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../CLCD_program.c: In function 'CLCD_voidInit':
+../CLCD_program.c:23: warning: implicit declaration of function 'DIO_voidSetPortDirection'
+../CLCD_program.c:25: warning: implicit declaration of function 'DIO_voidSetupPinDirection'
+../CLCD_program.c:32: warning: implicit declaration of function 'CLCD_voidSendCommand'
+../CLCD_program.c: At top level:
+../CLCD_program.c:45: warning: conflicting types for 'CLCD_voidSendCommand'
+../CLCD_program.c:32: warning: previous implicit declaration of 'CLCD_voidSendCommand' was here
+../CLCD_program.c: In function 'CLCD_voidSendCommand':
+../CLCD_program.c:48: warning: implicit declaration of function 'DIO_voidSetPinValue'
+../CLCD_program.c:52: warning: implicit declaration of function 'DIO_voidSetPortValue'
+make: *** [CLCD_program.o] Error 1
+07:26:03 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:11:
+../DIO_interface.h:34: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:35: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:36: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPinValue'
+../DIO_interface.h:37: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:38: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:39: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPortValue'
+In file included from ../CLCD_program.c:12:
+../CLCD_interface.h:47: error: expected ')' before 'Copy_u8Command'
+../CLCD_interface.h:48: error: expected ')' before 'Copy_u8Data'
+../CLCD_interface.h:50: error: expected ')' before 'Copy_u8Row'
+../CLCD_interface.h:52: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_interface.h:54: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_interface.h:55: error: expected ')' before '*' token
+../CLCD_interface.h:57: error: expected ')' before 'Copy_u32Number'
+In file included from ../CLCD_program.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../CLCD_program.c: In function 'CLCD_voidInit':
+../CLCD_program.c:23: warning: implicit declaration of function 'DIO_voidSetPortDirection'
+../CLCD_program.c:25: warning: implicit declaration of function 'DIO_voidSetupPinDirection'
+../CLCD_program.c:32: warning: implicit declaration of function 'CLCD_voidSendCommand'
+../CLCD_program.c: At top level:
+../CLCD_program.c:45: warning: conflicting types for 'CLCD_voidSendCommand'
+../CLCD_program.c:32: warning: previous implicit declaration of 'CLCD_voidSendCommand' was here
+../CLCD_program.c: In function 'CLCD_voidSendCommand':
+../CLCD_program.c:48: warning: implicit declaration of function 'DIO_voidSetPinValue'
+../CLCD_program.c:52: warning: implicit declaration of function 'DIO_voidSetPortValue'
+make: *** [CLCD_program.o] Error 1
+07:27:06 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:11:
+../DIO_interface.h:34: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:35: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:36: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPinValue'
+../DIO_interface.h:37: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:38: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:39: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPortValue'
+In file included from ../CLCD_program.c:12:
+../CLCD_interface.h:47: error: expected ')' before 'Copy_u8Command'
+../CLCD_interface.h:48: error: expected ')' before 'Copy_u8Data'
+../CLCD_interface.h:49: error: expected ')' before 'Copy_u8Row'
+../CLCD_interface.h:50: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_interface.h:51: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_interface.h:52: error: expected ')' before '*' token
+../CLCD_interface.h:53: error: expected ')' before 'Copy_u32Number'
+In file included from ../CLCD_program.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../CLCD_program.c: In function 'CLCD_voidInit':
+../CLCD_program.c:23: warning: implicit declaration of function 'DIO_voidSetPortDirection'
+../CLCD_program.c:25: warning: implicit declaration of function 'DIO_voidSetupPinDirection'
+../CLCD_program.c:32: warning: implicit declaration of function 'CLCD_voidSendCommand'
+../CLCD_program.c: At top level:
+../CLCD_program.c:45: warning: conflicting types for 'CLCD_voidSendCommand'
+../CLCD_program.c:32: warning: previous implicit declaration of 'CLCD_voidSendCommand' was here
+../CLCD_program.c: In function 'CLCD_voidSendCommand':
+../CLCD_program.c:48: warning: implicit declaration of function 'DIO_voidSetPinValue'
+../CLCD_program.c:52: warning: implicit declaration of function 'DIO_voidSetPortValue'
+make: *** [CLCD_program.o] Error 1
+07:27:35 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../KPAD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"KPAD_program.d" -MT"KPAD_program.o" -c -o "KPAD_program.o" "../KPAD_program.c"
+In file included from ../KPAD_program.c:4:
+../DIO_interface.h:34: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:35: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:36: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPinValue'
+../DIO_interface.h:37: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:38: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:39: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPortValue'
+In file included from ../KPAD_program.c:5:
+../KPAD_interface.h:14: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'KPAD_u8GetPressed'
+In file included from ../KPAD_program.c:6:
+../KPAD_config.h:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'KPAD_Au8Values'
+In file included from ../KPAD_program.c:8:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../KPAD_program.c: In function 'KPAD_voidInit':
+../KPAD_program.c:15: warning: implicit declaration of function 'DIO_voidSetupPinDirection'
+../KPAD_program.c:20: warning: implicit declaration of function 'DIO_voidSetPinValue'
+../KPAD_program.c: In function 'KPAD_u8GetPressed':
+../KPAD_program.c:50: warning: implicit declaration of function 'DIO_u8GetPinValue'
+../KPAD_program.c:58: error: 'KPAD_Au8Values' undeclared (first use in this function)
+../KPAD_program.c:58: error: (Each undeclared identifier is reported only once
+../KPAD_program.c:58: error: for each function it appears in.)
+make: *** [KPAD_program.o] Error 1
+07:27:45 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../KPAD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"KPAD_program.d" -MT"KPAD_program.o" -c -o "KPAD_program.o" "../KPAD_program.c"
+In file included from ../KPAD_program.c:8:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../KPAD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+../DIO_interface.h:34: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:35: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:36: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPinValue'
+../DIO_interface.h:37: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:38: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:39: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPortValue'
+In file included from ../main.c:10:
+../CLCD_interface.h:47: error: expected ')' before 'Copy_u8Command'
+../CLCD_interface.h:48: error: expected ')' before 'Copy_u8Data'
+../CLCD_interface.h:49: error: expected ')' before 'Copy_u8Row'
+../CLCD_interface.h:50: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_interface.h:51: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_interface.h:52: error: expected ')' before '*' token
+../CLCD_interface.h:53: error: expected ')' before 'Copy_u32Number'
+In file included from ../main.c:11:
+../KPAD_interface.h:14: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'KPAD_u8GetPressed'
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:30: warning: implicit declaration of function 'CLCD_voidSetPosition'
+../main.c:31: warning: implicit declaration of function 'CLCD_voidSendString'
+../main.c:37: warning: implicit declaration of function 'KPAD_u8GetPressed'
+../main.c:44: warning: implicit declaration of function 'CLCD_voidSendData'
+../main.c:75: warning: implicit declaration of function 'CLCD_voidSendu32Number'
+make: *** [main.o] Error 1
+07:28:00 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:15:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11692 bytes (35.7% Full)
+(.text + .data + .bootloader)
+
+Data:        100 bytes (4.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:29:16 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../KPAD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"KPAD_program.d" -MT"KPAD_program.o" -c -o "KPAD_program.o" "../KPAD_program.c"
+In file included from ../KPAD_program.c:8:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../KPAD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:15:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11772 bytes (35.9% Full)
+(.text + .data + .bootloader)
+
+Data:        100 bytes (4.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:29:30 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:17:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../KPAD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"KPAD_program.d" -MT"KPAD_program.o" -c -o "KPAD_program.o" "../KPAD_program.c"
+In file included from ../KPAD_program.c:6:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../KPAD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:15:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11772 bytes (35.9% Full)
+(.text + .data + .bootloader)
+
+Data:        100 bytes (4.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:29:50 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../KPAD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"KPAD_program.d" -MT"KPAD_program.o" -c -o "KPAD_program.o" "../KPAD_program.c"
+In file included from ../KPAD_program.c:7:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../KPAD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11772 bytes (35.9% Full)
+(.text + .data + .bootloader)
+
+Data:        100 bytes (4.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:29:58 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11772 bytes (35.9% Full)
+(.text + .data + .bootloader)
+
+Data:        100 bytes (4.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:30:06 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11772 bytes (35.9% Full)
+(.text + .data + .bootloader)
+
+Data:        100 bytes (4.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:30:28 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../KPAD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"KPAD_program.d" -MT"KPAD_program.o" -c -o "KPAD_program.o" "../KPAD_program.c"
+In file included from ../KPAD_program.c:7:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../KPAD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11772 bytes (35.9% Full)
+(.text + .data + .bootloader)
+
+Data:        100 bytes (4.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:34:41 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+../CLCD_program.c:11:27: error: DIO_interface.h: No such file or directory
+In file included from ../CLCD_program.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../CLCD_program.c: In function 'CLCD_voidInit':
+../CLCD_program.c:23: warning: implicit declaration of function 'DIO_voidSetPortDirection'
+../CLCD_program.c:23: error: 'DIO_PORTA' undeclared (first use in this function)
+../CLCD_program.c:23: error: (Each undeclared identifier is reported only once
+../CLCD_program.c:23: error: for each function it appears in.)
+../CLCD_program.c:23: error: 'DIO_OUTPUT' undeclared (first use in this function)
+../CLCD_program.c:25: warning: implicit declaration of function 'DIO_voidSetupPinDirection'
+../CLCD_program.c:25: error: 'DIO_PORTC' undeclared (first use in this function)
+../CLCD_program.c:25: error: 'DIO_PIN7' undeclared (first use in this function)
+../CLCD_program.c:26: error: 'DIO_PIN6' undeclared (first use in this function)
+../CLCD_program.c:27: error: 'DIO_PIN5' undeclared (first use in this function)
+../CLCD_program.c: In function 'CLCD_voidSendCommand':
+../CLCD_program.c:48: warning: implicit declaration of function 'DIO_voidSetPinValue'
+../CLCD_program.c:48: error: 'DIO_PORTC' undeclared (first use in this function)
+../CLCD_program.c:48: error: 'DIO_PIN7' undeclared (first use in this function)
+../CLCD_program.c:48: error: 'DIO_LOW' undeclared (first use in this function)
+../CLCD_program.c:50: error: 'DIO_PIN6' undeclared (first use in this function)
+../CLCD_program.c:52: warning: implicit declaration of function 'DIO_voidSetPortValue'
+../CLCD_program.c:52: error: 'DIO_PORTA' undeclared (first use in this function)
+../CLCD_program.c:54: error: 'DIO_PIN5' undeclared (first use in this function)
+../CLCD_program.c:54: error: 'DIO_HIGH' undeclared (first use in this function)
+../CLCD_program.c: In function 'CLCD_voidSendData':
+../CLCD_program.c:63: error: 'DIO_PORTC' undeclared (first use in this function)
+../CLCD_program.c:63: error: 'DIO_PIN7' undeclared (first use in this function)
+../CLCD_program.c:63: error: 'DIO_HIGH' undeclared (first use in this function)
+../CLCD_program.c:65: error: 'DIO_PIN6' undeclared (first use in this function)
+../CLCD_program.c:65: error: 'DIO_LOW' undeclared (first use in this function)
+../CLCD_program.c:67: error: 'DIO_PORTA' undeclared (first use in this function)
+../CLCD_program.c:69: error: 'DIO_PIN5' undeclared (first use in this function)
+make: *** [CLCD_program.o] Error 1
+07:34:47 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../CLCD_program.c: In function 'CLCD_voidInit':
+../CLCD_program.c:23: warning: implicit declaration of function 'DIO_voidSetPortDirection'
+../CLCD_program.c:23: error: 'DIO_PORTA' undeclared (first use in this function)
+../CLCD_program.c:23: error: (Each undeclared identifier is reported only once
+../CLCD_program.c:23: error: for each function it appears in.)
+../CLCD_program.c:23: error: 'DIO_OUTPUT' undeclared (first use in this function)
+../CLCD_program.c:25: warning: implicit declaration of function 'DIO_voidSetupPinDirection'
+../CLCD_program.c:25: error: 'DIO_PORTC' undeclared (first use in this function)
+../CLCD_program.c:25: error: 'DIO_PIN7' undeclared (first use in this function)
+../CLCD_program.c:26: error: 'DIO_PIN6' undeclared (first use in this function)
+../CLCD_program.c:27: error: 'DIO_PIN5' undeclared (first use in this function)
+../CLCD_program.c: In function 'CLCD_voidSendCommand':
+../CLCD_program.c:48: warning: implicit declaration of function 'DIO_voidSetPinValue'
+../CLCD_program.c:48: error: 'DIO_PORTC' undeclared (first use in this function)
+../CLCD_program.c:48: error: 'DIO_PIN7' undeclared (first use in this function)
+../CLCD_program.c:48: error: 'DIO_LOW' undeclared (first use in this function)
+../CLCD_program.c:50: error: 'DIO_PIN6' undeclared (first use in this function)
+../CLCD_program.c:52: warning: implicit declaration of function 'DIO_voidSetPortValue'
+../CLCD_program.c:52: error: 'DIO_PORTA' undeclared (first use in this function)
+../CLCD_program.c:54: error: 'DIO_PIN5' undeclared (first use in this function)
+../CLCD_program.c:54: error: 'DIO_HIGH' undeclared (first use in this function)
+../CLCD_program.c: In function 'CLCD_voidSendData':
+../CLCD_program.c:63: error: 'DIO_PORTC' undeclared (first use in this function)
+../CLCD_program.c:63: error: 'DIO_PIN7' undeclared (first use in this function)
+../CLCD_program.c:63: error: 'DIO_HIGH' undeclared (first use in this function)
+../CLCD_program.c:65: error: 'DIO_PIN6' undeclared (first use in this function)
+../CLCD_program.c:65: error: 'DIO_LOW' undeclared (first use in this function)
+../CLCD_program.c:67: error: 'DIO_PORTA' undeclared (first use in this function)
+../CLCD_program.c:69: error: 'DIO_PIN5' undeclared (first use in this function)
+make: *** [CLCD_program.o] Error 1
+07:35:01 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../CLCD_program.c: In function 'CLCD_voidInit':
+../CLCD_program.c:23: warning: implicit declaration of function 'DIO_voidSetPortDirection'
+../CLCD_program.c:23: error: 'DIO_PORTA' undeclared (first use in this function)
+../CLCD_program.c:23: error: (Each undeclared identifier is reported only once
+../CLCD_program.c:23: error: for each function it appears in.)
+../CLCD_program.c:23: error: 'DIO_OUTPUT' undeclared (first use in this function)
+../CLCD_program.c:25: warning: implicit declaration of function 'DIO_voidSetupPinDirection'
+../CLCD_program.c:25: error: 'DIO_PORTC' undeclared (first use in this function)
+../CLCD_program.c:25: error: 'DIO_PIN7' undeclared (first use in this function)
+../CLCD_program.c:26: error: 'DIO_PIN6' undeclared (first use in this function)
+../CLCD_program.c:27: error: 'DIO_PIN5' undeclared (first use in this function)
+../CLCD_program.c: In function 'CLCD_voidSendCommand':
+../CLCD_program.c:48: warning: implicit declaration of function 'DIO_voidSetPinValue'
+../CLCD_program.c:48: error: 'DIO_PORTC' undeclared (first use in this function)
+../CLCD_program.c:48: error: 'DIO_PIN7' undeclared (first use in this function)
+../CLCD_program.c:48: error: 'DIO_LOW' undeclared (first use in this function)
+../CLCD_program.c:50: error: 'DIO_PIN6' undeclared (first use in this function)
+../CLCD_program.c:52: warning: implicit declaration of function 'DIO_voidSetPortValue'
+../CLCD_program.c:52: error: 'DIO_PORTA' undeclared (first use in this function)
+../CLCD_program.c:54: error: 'DIO_PIN5' undeclared (first use in this function)
+../CLCD_program.c:54: error: 'DIO_HIGH' undeclared (first use in this function)
+../CLCD_program.c: In function 'CLCD_voidSendData':
+../CLCD_program.c:63: error: 'DIO_PORTC' undeclared (first use in this function)
+../CLCD_program.c:63: error: 'DIO_PIN7' undeclared (first use in this function)
+../CLCD_program.c:63: error: 'DIO_HIGH' undeclared (first use in this function)
+../CLCD_program.c:65: error: 'DIO_PIN6' undeclared (first use in this function)
+../CLCD_program.c:65: error: 'DIO_LOW' undeclared (first use in this function)
+../CLCD_program.c:67: error: 'DIO_PORTA' undeclared (first use in this function)
+../CLCD_program.c:69: error: 'DIO_PIN5' undeclared (first use in this function)
+make: *** [CLCD_program.o] Error 1
+07:36:49 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../CLCD_program.c: In function 'CLCD_voidInit':
+../CLCD_program.c:23: warning: implicit declaration of function 'DIO_voidSetPortDirection'
+../CLCD_program.c:23: error: 'DIO_PORTA' undeclared (first use in this function)
+../CLCD_program.c:23: error: (Each undeclared identifier is reported only once
+../CLCD_program.c:23: error: for each function it appears in.)
+../CLCD_program.c:23: error: 'DIO_OUTPUT' undeclared (first use in this function)
+../CLCD_program.c:25: warning: implicit declaration of function 'DIO_voidSetupPinDirection'
+../CLCD_program.c:25: error: 'DIO_PORTC' undeclared (first use in this function)
+../CLCD_program.c:25: error: 'DIO_PIN7' undeclared (first use in this function)
+../CLCD_program.c:26: error: 'DIO_PIN6' undeclared (first use in this function)
+../CLCD_program.c:27: error: 'DIO_PIN5' undeclared (first use in this function)
+../CLCD_program.c: In function 'CLCD_voidSendCommand':
+../CLCD_program.c:48: warning: implicit declaration of function 'DIO_voidSetPinValue'
+../CLCD_program.c:48: error: 'DIO_PORTC' undeclared (first use in this function)
+../CLCD_program.c:48: error: 'DIO_PIN7' undeclared (first use in this function)
+../CLCD_program.c:48: error: 'DIO_LOW' undeclared (first use in this function)
+../CLCD_program.c:50: error: 'DIO_PIN6' undeclared (first use in this function)
+../CLCD_program.c:52: warning: implicit declaration of function 'DIO_voidSetPortValue'
+../CLCD_program.c:52: error: 'DIO_PORTA' undeclared (first use in this function)
+../CLCD_program.c:54: error: 'DIO_PIN5' undeclared (first use in this function)
+../CLCD_program.c:54: error: 'DIO_HIGH' undeclared (first use in this function)
+../CLCD_program.c: In function 'CLCD_voidSendData':
+../CLCD_program.c:63: error: 'DIO_PORTC' undeclared (first use in this function)
+../CLCD_program.c:63: error: 'DIO_PIN7' undeclared (first use in this function)
+../CLCD_program.c:63: error: 'DIO_HIGH' undeclared (first use in this function)
+../CLCD_program.c:65: error: 'DIO_PIN6' undeclared (first use in this function)
+../CLCD_program.c:65: error: 'DIO_LOW' undeclared (first use in this function)
+../CLCD_program.c:67: error: 'DIO_PORTA' undeclared (first use in this function)
+../CLCD_program.c:69: error: 'DIO_PIN5' undeclared (first use in this function)
+make: *** [CLCD_program.o] Error 1
+07:37:35 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../KPAD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"KPAD_program.d" -MT"KPAD_program.o" -c -o "KPAD_program.o" "../KPAD_program.c"
+In file included from ../KPAD_program.c:7:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../KPAD_program.c
+ 
+Building file: ../app.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"app.d" -MT"app.o" -c -o "app.o" "../app.c"
+In file included from ../app.c:15:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../app.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./app.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11772 bytes (35.9% Full)
+(.text + .data + .bootloader)
+
+Data:        100 bytes (4.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:40:20 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:18:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../KPAD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"KPAD_program.d" -MT"KPAD_program.o" -c -o "KPAD_program.o" "../KPAD_program.c"
+In file included from ../KPAD_program.c:7:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../KPAD_program.c
+ 
+Building file: ../app.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"app.d" -MT"app.o" -c -o "app.o" "../app.c"
+In file included from ../app.c:15:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../app.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./app.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11772 bytes (35.9% Full)
+(.text + .data + .bootloader)
+
+Data:        100 bytes (4.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:47:42 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+../CLCD_program.c:10:33: error: ../../LIB/STD_TYPES.h: No such file or directory
+../CLCD_program.c:11:34: error: ../../LIB/BIT_MACROS.h: No such file or directory
+In file included from ../CLCD_program.c:13:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../CLCD_program.c:15:42: error: ../../MCAL/DIO/DIO_interface.h: No such file or directory
+In file included from ../CLCD_program.c:18:
+../CLCD_interface.h:53: error: expected ')' before 'Copy_u8Command'
+../CLCD_interface.h:54: error: expected ')' before 'Copy_u8Data'
+../CLCD_interface.h:56: error: expected ')' before 'Copy_u8Row'
+../CLCD_interface.h:58: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_interface.h:60: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_interface.h:61: error: expected ')' before '*' token
+../CLCD_interface.h:63: error: expected ')' before 'Copy_u32Number'
+../CLCD_program.c: In function 'CLCD_voidInit':
+../CLCD_program.c:25: warning: implicit declaration of function 'DIO_voidSetPortDirection'
+../CLCD_program.c:25: error: 'DIO_PORTA' undeclared (first use in this function)
+../CLCD_program.c:25: error: (Each undeclared identifier is reported only once
+../CLCD_program.c:25: error: for each function it appears in.)
+../CLCD_program.c:25: error: 'DIO_OUTPUT' undeclared (first use in this function)
+../CLCD_program.c:27: warning: implicit declaration of function 'DIO_voidSetupPinDirection'
+../CLCD_program.c:27: error: 'DIO_PORTC' undeclared (first use in this function)
+../CLCD_program.c:27: error: 'DIO_PIN7' undeclared (first use in this function)
+../CLCD_program.c:28: error: 'DIO_PIN6' undeclared (first use in this function)
+../CLCD_program.c:29: error: 'DIO_PIN5' undeclared (first use in this function)
+../CLCD_program.c:34: warning: implicit declaration of function 'CLCD_voidSendCommand'
+../CLCD_program.c: At top level:
+../CLCD_program.c:47: error: expected ')' before 'Copy_u8Command'
+../CLCD_program.c:62: error: expected ')' before 'Copy_u8Data'
+../CLCD_program.c:78: error: expected ')' before 'Copy_u8Row'
+../CLCD_program.c:91: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_program.c:107: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_program.c:120: error: expected ')' before '*' token
+../CLCD_program.c:132: error: expected ')' before 'Copy_u32Number'
+make: *** [CLCD_program.o] Error 1
+07:48:32 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+../CLCD_program.c:10:33: error: ../../LIB/STD_TYPES.h: No such file or directory
+../CLCD_program.c:11:34: error: ../../LIB/BIT_MACROS.h: No such file or directory
+In file included from ../CLCD_program.c:13:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../CLCD_program.c:15:42: error: ../../MCAL/DIO/DIO_interface.h: No such file or directory
+In file included from ../CLCD_program.c:18:
+../CLCD_interface.h:49: error: expected ')' before 'Copy_u8Command'
+../CLCD_interface.h:50: error: expected ')' before 'Copy_u8Data'
+../CLCD_interface.h:52: error: expected ')' before 'Copy_u8Row'
+../CLCD_interface.h:54: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_interface.h:56: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_interface.h:57: error: expected ')' before '*' token
+../CLCD_interface.h:59: error: expected ')' before 'Copy_u32Number'
+../CLCD_program.c: In function 'CLCD_voidInit':
+../CLCD_program.c:25: warning: implicit declaration of function 'DIO_voidSetPortDirection'
+../CLCD_program.c:25: error: 'DIO_PORTA' undeclared (first use in this function)
+../CLCD_program.c:25: error: (Each undeclared identifier is reported only once
+../CLCD_program.c:25: error: for each function it appears in.)
+../CLCD_program.c:25: error: 'DIO_OUTPUT' undeclared (first use in this function)
+../CLCD_program.c:27: warning: implicit declaration of function 'DIO_voidSetupPinDirection'
+../CLCD_program.c:27: error: 'DIO_PORTC' undeclared (first use in this function)
+../CLCD_program.c:27: error: 'DIO_PIN7' undeclared (first use in this function)
+../CLCD_program.c:28: error: 'DIO_PIN6' undeclared (first use in this function)
+../CLCD_program.c:29: error: 'DIO_PIN5' undeclared (first use in this function)
+../CLCD_program.c:34: warning: implicit declaration of function 'CLCD_voidSendCommand'
+../CLCD_program.c: At top level:
+../CLCD_program.c:47: error: expected ')' before 'Copy_u8Command'
+../CLCD_program.c:62: error: expected ')' before 'Copy_u8Data'
+../CLCD_program.c:78: error: expected ')' before 'Copy_u8Row'
+../CLCD_program.c:91: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_program.c:107: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_program.c:120: error: expected ')' before '*' token
+../CLCD_program.c:132: error: expected ')' before 'Copy_u32Number'
+make: *** [CLCD_program.o] Error 1
+07:49:02 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+../DIO_program.c:11:33: error: ..\..\LIB\STD_TYPES.h: No such file or directory
+../DIO_program.c:12:34: error: ..\..\LIB\BIT_MACROS.h: No such file or directory
+In file included from ../DIO_program.c:14:
+../DIO_interface.h:34: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:36: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:38: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPinValue'
+../DIO_interface.h:40: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:42: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:45: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPortValue'
+../DIO_program.c:19: error: expected ')' before 'copy_u8PortID'
+../DIO_program.c:63: error: expected ')' before 'Copy_u8PortID'
+../DIO_program.c:105: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPinValue'
+../DIO_program.c:133: error: expected ')' before 'Copy_u8PortID'
+../DIO_program.c:183: error: expected ')' before 'Copy_u8PortID'
+../DIO_program.c:208: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPortValue'
+make: *** [DIO_program.o] Error 1
+07:49:30 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../KPAD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"KPAD_program.d" -MT"KPAD_program.o" -c -o "KPAD_program.o" "../KPAD_program.c"
+In file included from ../KPAD_program.c:9:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../KPAD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12054 bytes (36.8% Full)
+(.text + .data + .bootloader)
+
+Data:         86 bytes (4.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:50:34 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12054 bytes (36.8% Full)
+(.text + .data + .bootloader)
+
+Data:         86 bytes (4.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:51:26 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:9:
+../DIO_interface.h:34: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:36: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:38: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPinValue'
+../DIO_interface.h:40: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:42: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:45: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPortValue'
+In file included from ../CLCD_program.c:10:
+../CLCD_interface.h:49: error: expected ')' before 'Copy_u8Command'
+../CLCD_interface.h:50: error: expected ')' before 'Copy_u8Data'
+../CLCD_interface.h:52: error: expected ')' before 'Copy_u8Row'
+../CLCD_interface.h:54: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_interface.h:56: error: expected ')' before 'Copy_u8PatternLocation'
+../CLCD_interface.h:57: error: expected ')' before '*' token
+../CLCD_interface.h:59: error: expected ')' before 'Copy_u32Number'
+In file included from ../CLCD_program.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../CLCD_program.c: In function 'CLCD_voidInit':
+../CLCD_program.c:21: warning: implicit declaration of function 'DIO_voidSetPortDirection'
+../CLCD_program.c:23: warning: implicit declaration of function 'DIO_voidSetupPinDirection'
+../CLCD_program.c:30: warning: implicit declaration of function 'CLCD_voidSendCommand'
+../CLCD_program.c: At top level:
+../CLCD_program.c:43: warning: conflicting types for 'CLCD_voidSendCommand'
+../CLCD_program.c:30: warning: previous implicit declaration of 'CLCD_voidSendCommand' was here
+../CLCD_program.c: In function 'CLCD_voidSendCommand':
+../CLCD_program.c:46: warning: implicit declaration of function 'DIO_voidSetPinValue'
+../CLCD_program.c:50: warning: implicit declaration of function 'DIO_voidSetPortValue'
+make: *** [CLCD_program.o] Error 1
+07:51:54 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../KPAD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"KPAD_program.d" -MT"KPAD_program.o" -c -o "KPAD_program.o" "../KPAD_program.c"
+In file included from ../KPAD_program.c:4:
+../DIO_interface.h:34: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:36: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:38: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPinValue'
+../DIO_interface.h:40: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:42: error: expected ')' before 'Copy_u8PortID'
+../DIO_interface.h:45: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'DIO_u8GetPortValue'
+In file included from ../KPAD_program.c:5:
+../KPAD_interface.h:15: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'KPAD_u8GetPressed'
+In file included from ../KPAD_program.c:6:
+../KPAD_config.h:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'KPAD_Au8Values'
+In file included from ../KPAD_program.c:8:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../KPAD_program.c: In function 'KPAD_voidInit':
+../KPAD_program.c:14: warning: implicit declaration of function 'DIO_voidSetupPinDirection'
+../KPAD_program.c:19: warning: implicit declaration of function 'DIO_voidSetPinValue'
+../KPAD_program.c: In function 'KPAD_u8GetPressed':
+../KPAD_program.c:49: warning: implicit declaration of function 'DIO_u8GetPinValue'
+../KPAD_program.c:57: error: 'KPAD_Au8Values' undeclared (first use in this function)
+../KPAD_program.c:57: error: (Each undeclared identifier is reported only once
+../KPAD_program.c:57: error: for each function it appears in.)
+make: *** [KPAD_program.o] Error 1
+07:52:02 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../KPAD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"KPAD_program.d" -MT"KPAD_program.o" -c -o "KPAD_program.o" "../KPAD_program.c"
+In file included from ../KPAD_program.c:8:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../KPAD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11678 bytes (35.6% Full)
+(.text + .data + .bootloader)
+
+Data:         86 bytes (4.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:53:04 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../KPAD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"KPAD_program.d" -MT"KPAD_program.o" -c -o "KPAD_program.o" "../KPAD_program.c"
+In file included from ../KPAD_program.c:6:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../KPAD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11778 bytes (35.9% Full)
+(.text + .data + .bootloader)
+
+Data:         86 bytes (4.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:53:44 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:17:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../KPAD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"KPAD_program.d" -MT"KPAD_program.o" -c -o "KPAD_program.o" "../KPAD_program.c"
+In file included from ../KPAD_program.c:7:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../KPAD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:17:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11778 bytes (35.9% Full)
+(.text + .data + .bootloader)
+
+Data:         86 bytes (4.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+07:54:53 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../KPAD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"KPAD_program.d" -MT"KPAD_program.o" -c -o "KPAD_program.o" "../KPAD_program.c"
+In file included from ../KPAD_program.c:7:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../KPAD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:17:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11778 bytes (35.9% Full)
+(.text + .data + .bootloader)
+
+Data:         86 bytes (4.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+08:05:39 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:17:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../KPAD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"KPAD_program.d" -MT"KPAD_program.o" -c -o "KPAD_program.o" "../KPAD_program.c"
+In file included from ../KPAD_program.c:13:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../KPAD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:15:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11774 bytes (35.9% Full)
+(.text + .data + .bootloader)
+
+Data:         82 bytes (4.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+08:08:46 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:17:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../KPAD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"KPAD_program.d" -MT"KPAD_program.o" -c -o "KPAD_program.o" "../KPAD_program.c"
+In file included from ../KPAD_program.c:13:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../KPAD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:15:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11774 bytes (35.9% Full)
+(.text + .data + .bootloader)
+
+Data:         82 bytes (4.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+08:34:31 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:15:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11774 bytes (35.9% Full)
+(.text + .data + .bootloader)
+
+Data:         82 bytes (4.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+08:35:11 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../KPAD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"KPAD_program.d" -MT"KPAD_program.o" -c -o "KPAD_program.o" "../KPAD_program.c"
+In file included from ../KPAD_program.c:13:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../KPAD_program.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11774 bytes (35.9% Full)
+(.text + .data + .bootloader)
+
+Data:         82 bytes (4.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+08:36:03 **** Incremental Build of configuration Debug for project calculator ****
+make all 
+Building file: ../CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"CLCD_program.d" -MT"CLCD_program.o" -c -o "CLCD_program.o" "../CLCD_program.c"
+In file included from ../CLCD_program.c:16:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../CLCD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:15:
+c:/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: calculator.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,calculator.map -mmcu=atmega32 -o "calculator.elf"  ./CLCD_program.o ./DIO_program.o ./KPAD_program.o ./main.o   
+Finished building target: calculator.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S calculator.elf  >"calculator.lss"
+Finished building: calculator.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 calculator.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11774 bytes (35.9% Full)
+(.text + .data + .bootloader)
+
+Data:         82 bytes (4.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

@@ -1,0 +1,19 @@
+/***************************************************************************************************************
+*                                          Module: Keypad Interface                                             *
+*                                          File Name: KPAD_interface.h                                           *
+*                                          Author: Abdel-Hamid Tarek                                           *
+****************************************************************************************************************/
+
+#ifndef HAL_KPAD_KPAD_INTERFACE_H_
+#define HAL_KPAD_KPAD_INTERFACE_H_
+
+
+
+void KPAD_voidInit      (void)  ;
+u8 KPAD_u8GetPressed    (void)  ;
+
+
+
+#endif /* HAL_KPAD_KPAD_INTERFACE_H_ */
+
+/***************************************************************************************************************/

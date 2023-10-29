@@ -1,0 +1,13 @@
+/***************************************************************************************************************
+*                                          Module:  Digital Input/Output Configuration                         *
+*                                          File Name: MDIO_config.h                                            *
+*                                          Created on: May 5, 2023                                             *
+*                                          Author: Abdel-Hamid Tarek                                           *
+****************************************************************************************************************/
+
+#ifndef MCAL_DIO_DIO_CONFIG_H_
+#define MCAL_DIO_DIO_CONFIG_H_
+
+
+
+#endif /* MCAL_DIO_DIO_CONFIG_H_ */
